@@ -11,7 +11,8 @@
 3. [Setup Guide](#setup-guide)  
    - [Prerequisites](#prerequisites)  
    - [Installation](#installation)  
-     - [Using Shell Script](#using-shell-script)  
+     - [Using PowerShell Command for Windows](#using-powershell-command-for-windows)  
+     - [Using Shell Script for Linux](#using-shell-script-for-linux)  
      - [Traditional Way](#or-you-can-proceed-with-the-traditional-way)
 4. [Using API Collection with Postman](#using-api-collection-with-postman)
 
@@ -66,7 +67,23 @@
 
 ---
 
-#### **Using Shell Script**
+#### **Using PowerShell Command for Windows**
+
+1. **Make the Script Executable**:
+    After cloning the repository, users need to allow script execution (if not already allowed):
+   ```bash
+   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+   ```
+
+2. **Run the Script**:
+   Users can then run the script using:
+   ```bash
+   .\setup.ps1
+   ```
+
+---
+
+#### **Using Shell Script for Linux**
 
 1. **Make the Script Executable**:
     After cloning the repository, users need to make the script executable by running:
