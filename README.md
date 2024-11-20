@@ -78,6 +78,7 @@
 2. **Run the Script**:
    Users can then run the script using:
    ```bash
+   cd quizbit
    .\setup.ps1
    ```
 
