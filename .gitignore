@@ -1,2 +1,21 @@
+# Python cache files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment folder
 venv/
-QuizBit/quizbit/quiz/serializers.py
+env/
+
+# Django specific files
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.env
+*.sqlite3
+
+# Environment variable files
+.env
+*.env
