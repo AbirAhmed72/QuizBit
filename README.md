@@ -53,8 +53,8 @@
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/your-repo/quizbit.git
-   cd quizbit
+   git clone https://github.com/AbirAhmed72/QuizBit.git
+   cd Quizbit
    ```
 
 2. **Create a Virtual Environment**  
